@@ -1,0 +1,46 @@
+.policy {
+  header {
+    display: flex;
+    .list-item {
+      display: flex;
+      align-items: center;
+      margin-left: 48px;
+      font-size: 16px;
+      .left {
+        margin-right: 24px;
+      }
+      .right {
+        display: flex;
+        align-items: center;
+        p {
+          margin-right: 24px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  main {
+    background-color: #fff;
+    border-radius: 8px;
+    .top {
+      padding: 12px 24px;
+      .ant-form {
+        width: 100%;
+        display: flex;
+        .ant-form-item {
+          width: 40%;
+        }
+        .ant-form-item:nth-child(3) {
+          width: 20%;
+          display: flex;
+          justify-content: flex-end;
+          transform: translateX(2.6vw);
+        }
+      }
+    }
+    section {
+      border-top: 1px solid rgba(0, 0, 0, 0.35);
+      padding: 12px 24px;
+    }
+  }
+}
